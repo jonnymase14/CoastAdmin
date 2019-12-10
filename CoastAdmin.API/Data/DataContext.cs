@@ -9,5 +9,6 @@ namespace CoastAdmin.API.Data
         
         //Names table Values when scaffold DB
         public DbSet<Value> Values { get; set;}
+        public DbSet<User> Users { get; set; }
     }
 }
